@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>amastudio-brand</title>
+  <!------ normalize.css - сброс к единым стилям для всех браузеров -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/hamburgers.css"> 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page">
+    <!------------------------------------ шапка сайта ----------------------------------->
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <!-- переключатель меню -->
+          <button class="hamburger hamburger--squeeze header__toggle js-menu-toggle" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <div class="header__logo">
+            <a href="index.html"><img src="images/logo.svg" alt="amastudio"></a>
+          </div> 
+          <!--------------------------------- навигация ---------------------------------->
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="catalog.html">Каталог</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#">Lookbook</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="brand.html">О бренде</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <!----------------------------- левая часть меню -------------------------------->
+          <div class="header__right">
+            <a href="#" class="header__search">
+              <img src="images/icon/search.svg" alt="Поиск">
+            </a>
+            <a href="enter.html" class="header__smile">
+              <img src="images/icon/smile.svg" alt="Личный кабинет">
+            </a>
+            <a href="#" class="header__heart">
+              <img src="images/icon/heart.svg" alt="Отложено">
+              <span class="header__cart-number">(2)</span>
+            </a>
+            <a href="cart.html" class="header__cart">
+              <img src="images/icon/cart.svg" alt="Корзина">
+              <span class="header__cart-number">(3)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!----------------------------------- о бренде --------------------------->
+    <section class="brand__wrapper">
+        <div class="container">
+          <div class="brand__wrapper-box">
+            <div class="brand_title">
+              <div class="brand_main"><h2>AMA STUDIO</h2></div>
+              <div class="brand_subtitle">AMA Studio - молодой бренд женской одежды.</div>
+              <div class="brand_subtitle">
+                <p>Основное наше направление - это правильная база, наполненная цветами и фактурами.<br> Создавая коллекции мы стараемся сделать вещь, которая будет отвечать всем требованиям современной девушки. </p> 
+              </div>
+              <div class="brand_subtitle">
+                <p>Мы создаем не разовую вещь, которую вы будете надевать только на работу или на выход, мы
+                стараемся найти ту грань, которая позволит в одном образе появится в разных случаях, лишь
+                поменяв аксессуары.</p> 
+              </div>
+              <div class="brand_subtitle"><p>В нашем, постоянно ускоряющемся ритме жизни это необходимо.</p></div>
+            </div>
+            <div class="brand_space"><img src="images/brand.jpg" alt="" class="brand_img"></div>
+            <p class="brand_bank">Юридическая информация: <br><br>
+              Индивидуальный предприниматель Иванова Мария Ивановна <br>
+              ОГРН 311557032200032 <br>
+              ИНН 668009244410 <br>
+              Юридический адрес: <br>
+              603000, г. Нижний Новгород, ул. Варварская, 27 кв. 5 <br>
+              Фактический адрес: <br>
+              603000, г. Нижний Новгород, ул. Звездинка, 24 <br>
+              Расчетный счет: 40801810038030006582 <br>
+              Название Банка: ФИЛИАЛ "Нижегородский" АО "СБЕРБАНК" <br>
+              Кор.счет: 30102810100000000529 <br>
+              БИК банка: 046588376 </p>
+          </div>  
+        </div>
+    </section>
+    <!----------------------------------------- подвал ----------------------------------->
+    <footer class="footer">
+      <div class="container footer__row">
+                
+        <ul class="footer__menu">
+          <li><a href="delivery-and-payment.html">Доставка и оплата</a></li>
+          <li><a href="#">Возврат и обмен</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="#">Оферта</a></li>
+        </ul>
+
+        <div class="footer__social">
+          <a href="https://vk.com" target="_blank"><img src="images/social/vk.svg" alt="vk"></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="images/social/instagram.svg" alt="instagram"></a>
+          <a href="https://www.whatsapp.com" target="_blank"><img src="images/social/whatsapp.svg" alt="whatsapp"></a>
+        </div>
+      </div>
+
+      <div class="footer__copyright">© 2017-2021 Ama Studio
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script> 
+
+</body>
+</html>

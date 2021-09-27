@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>amastudio-delivery-and-payment</title>
+  <!------ normalize.css - сброс к единым стилям для всех браузеров -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/hamburgers.css"> 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page">
+    <!------------------------------------ шапка сайта ----------------------------------->
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <!-- переключатель меню -->
+          <button class="hamburger hamburger--squeeze header__toggle js-menu-toggle" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <div class="header__logo">
+            <a href="index.html"><img src="images/logo.svg" alt="amastudio"></a>
+          </div> 
+          <!--------------------------------- навигация ---------------------------------->
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="catalog.html">Каталог</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#">Lookbook</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="brand.html">О бренде</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <!----------------------------- левая часть меню -------------------------------->
+          <div class="header__right">
+            <a href="#" class="header__search">
+              <img src="images/icon/search.svg" alt="Поиск">
+            </a>
+            <a href="enter.html" class="header__smile">
+              <img src="images/icon/smile.svg" alt="Личный кабинет">
+            </a>
+            <a href="#" class="header__heart">
+              <img src="images/icon/heart.svg" alt="Отложено">
+              <span class="header__cart-number">(2)</span>
+            </a>
+            <a href="cart.html" class="header__cart">
+              <img src="images/icon/cart.svg" alt="Корзина">
+              <span class="header__cart-number">(3)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!----------------------------------- доставка и оплата --------------------------->
+    <section class="contacts__wrapper">
+      <div class="container">
+        <div class="contacts__holder delivery-payment">
+
+          <div class="delivery__subject">
+            <h2>Доставка и оплата</h2>
+          </div>
+          <p class="delivery__client">Дорогие клиенты!</p>
+          <div class="delivery__text">
+            <p>Не нужно стоять в очереди, сохраните ваше время и здоровье.</p>
+            <p>Мы рекомендуем вам максимально использовать доставку. Вы можете быть уверены, что наши курьеры обеспечены всеми необходимыми средствами защиты, а автомобили доставки проходят дезинфекцию.</p>
+            <p>Чтобы минимизировать риски, рекомендуем делать предоплату или оплачивать заказ при получении банковской картой или (ApplePay)</p>
+            <p>Для вашего удобства мы также оставляем вариант получения заказа в сети постаматов и пунктов выдачи, которая работает как в Нижнем Новгороде, так и в других городах России.</p>
+          </div>
+
+          <div class="delivery__subtitle">
+            <h3>По Нижнему Новгороду и Нижегородской области</h3>
+          </div>
+          <div class="delivery__text">
+            <p>Стоимость доставки - 290 руб.</p>
+            <p>Срок доставки: от 1-2 дней.</p>
+            <p>Во время распродажи сроки доставки могут быть увеличены.  Более подробную информацию Вы можете уточнить у менеджеров по телефону:
+              <a href="tel:+79625164303">+7 (962) 516-43-03</a>
+            </p>
+            <p>Время примерки составляет: 15 минут.</p>
+            <p>Оплата:
+              <ul>
+                <li>Картой на сайте.</li>
+                <li>Наличными.</li>
+                <li>Картой курьеру.</li>
+              </ul>
+            </p>
+            <p>При полном отказе доставка оплачивается.</p>
+            <span class="delivery__today">Доставка в день оформления заказа через Яндекс GO.</span>
+            <p>Доставим заказ в течении 2 часов если заказ оформлен до 19:00 </p>
+            <p>Без возможности примерки</p>
+            <p>Без возможности частичного выкупа</p>
+            <p>Оплата только картой онлайн</p>
+            <p>Стоймость доставки - 1000 руб.</p>
+          </div>
+
+          <div class="delivery__subtitle">
+            <h3>По России</h3>
+          </div>
+          <div class="delivery__text">
+            <p>Стоимость доставки - 470 руб.</p>
+            <p>Срок доставки определяется согласно правилам транспортной компании, учитывая город покупателя  (уточнить эту информацию Вы можете у наших менеджеров).</p>
+            <p>
+              <a href="https://cdek.ru/tracking">Отследить заказ</a>
+            </p>
+            <p>Без возможности примерки.</p>
+            <p>Без возможности частичного выкупа.</p>
+            <p>Оплата картой на сайте.<br>Также доступна доставка <a href=""> boxberry </a>в пункт самовывоза - 190 руб. (Срок доставки рассчитывается при выборе пункта самовывоза)</p>
+            <p>При возврате заказа  деньги за доставку не возвращаются.</p>
+          </div>
+
+          <div class="delivery__subtitle">
+            <h3>В другие страны</h3>
+          </div>
+          <div class="delivery__text">
+            <p>Стоимость доставки в Казахстан и Белоруссию  - 870 руб. Доставку осуществляем транспортной компанией СДЭК</p>
+            <p>Страны Европейского союза, США, Канады - 1990 руб. Доставку осуществляем транспортной компанией DHL</p>
+            <p>Срок доставки определяется согласно правилам транспортной компании, учитывая город покупателя  (уточнить эту информацию Вы можете у наших менеджеров).</p>
+            <p>Без возможности примерки.</p>
+            <p>Без возможности частичного выкупа.</p>
+            <p>Оплата картой на сайте.</p>
+            <p style="color: #ff0000;">Обращаем ваше внимание: налоги и пошлины на покупку не включены в стоимость доставки на сайте - в каждой стране собственная система налогообложения. Обязательно уточните эту информацию в таможенной службе вашей страны.</p>
+            <p>Уточнить статус заказа, а также изменить информацию о доставке можно по тел. 
+              <a href="tel:+79625164303">+7 (962) 516-43-03</a>
+            </p>
+          </div>
+
+          <div class="delivery__subtitle">
+            <h3>Оплата картой на сайте</h3>
+          </div>
+          <div class="delivery__text">
+            <p>ОПИСАНИЕ ПРОЦЕССА ПЕРЕДАЧИ ДАННЫХ</p>
+            <p>Для оплаты (ввода реквизитов Вашей карты) Вы будете перенаправлены на платежный шлюз ПАО СБЕРБАНК. Соединение с платежным шлюзом и передача информации осуществляется в защищенном режиме с использованием протокола шифрования SSL. В случае если Ваш банк поддерживает технологию безопасного проведения интернет-платежей Verified By Visa или MasterCard SecureCode для проведения платежа также может потребоваться ввод специального пароля. Настоящий сайт поддерживает 256-битное шифрование. Конфиденциальность сообщаемой персональной информации обеспечивается ПАО СБЕРБАНК. Введенная информация не будет предоставлена третьим лицам за исключением случаев, предусмотренных законодательством РФ. Проведение платежей по банковским картам осуществляется в строгом соответствии с требованиями платежных систем МИР, Visa Int. и MasterCard Europe Sprl.</p>
+            <p>Возврат переведенных средств, производится на Ваш банковский счет в течение 5—30 рабочих дней (срок зависит от Банка, который выдал Вашу банковскую карту).</p>
+            <p class="bank-card">
+              <img width="409" alt="pay-system1.png" src="images/icon/bank-card/visa.svg" class="bank-img-1">
+              <img width="409" alt="pay-system2.png" src="images/icon/bank-card/mastercard.svg" class="bank-img-2">
+            </p>
+            <p>Сроки подтверждения заказов</p>
+            <p>После оформления заказа на сайте мы свяжемся для подтверждения заказа выбранным вами методом. Если вы выбрали "Перезвоните мне для подтверждения заказа", менеджер свяжется с вами в течение 30 минут. Пожалуйста, проверьте корректность номера телефона. Мы обрабатываем заказы ежедневно с 9.00 до 20.00.</p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!----------------------------------------- подвал ----------------------------------->
+    <footer class="footer">
+      <div class="container footer__row">
+                
+        <ul class="footer__menu">
+          <li><a href="delivery-and-payment.html">Доставка и оплата</a></li>
+          <li><a href="#">Возврат и обмен</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="#">Оферта</a></li>
+        </ul>
+
+        <div class="footer__social">
+          <a href="https://vk.com" target="_blank"><img src="images/social/vk.svg" alt="vk"></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="images/social/instagram.svg" alt="instagram"></a>
+          <a href="https://www.whatsapp.com" target="_blank"><img src="images/social/whatsapp.svg" alt="whatsapp"></a>
+        </div>
+      </div>
+
+      <div class="footer__copyright">© 2017-2021 Ama Studio
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

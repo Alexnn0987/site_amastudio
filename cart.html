@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>amastudio-cart</title>
+  <!------ normalize.css - сброс к единым стилям для всех браузеров -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/hamburgers.css"> 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page">
+    <!------------------------------------ шапка сайта ----------------------------------->
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <!-- переключатель меню -->
+          <button class="hamburger hamburger--squeeze header__toggle js-menu-toggle" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <div class="header__logo">
+            <a href="index.html"><img src="images/logo.svg" alt="amastudio"></a>
+          </div> 
+          <!--------------------------------- навигация ---------------------------------->
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="catalog.html">Каталог</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#">Lookbook</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="brand.html">О бренде</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <!----------------------------- левая часть меню -------------------------------->
+          <div class="header__right">
+            <a href="#" class="header__search">
+              <img src="images/icon/search.svg" alt="Поиск">
+            </a>
+            <a href="enter.html" class="header__smile">
+              <img src="images/icon/smile.svg" alt="Личный кабинет">
+            </a>
+            <a href="#" class="header__heart">
+              <img src="images/icon/heart.svg" alt="Отложено">
+              <span class="header__cart-number">(2)</span>
+            </a>
+            <a href="cart.html" class="header__cart">
+              <img src="images/icon/cart.svg" alt="Корзина">
+              <span class="header__cart-number">(3)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!----------------------------------- корзина --------------------------->
+    <section class="cart__wrapper">
+        <div class="container">
+          <div class="cart__box">
+            <div class="cart__title">
+              <h2>Корзина</h2>
+            </div>
+            <div class="cart__cross">
+              <a href="#"><img src="images/icon/cross.svg" alt=""></a>
+            </div>
+            <div class="cart__subtitle">
+              <div class="cart__list">
+                <div class="cart__item-img">
+                  <img src="images/product-cart/product-card-1.jpg" alt="">
+                  <div class="cart__item-text">
+                    <span class="cart__text">Платье белое</span>
+                    <span class="cart__art">арт. 2021-01-358</span>
+                    <span class="cart__size">Размер : S</span>
+                  </div>
+                </div>
+                
+                <div class="cart__item-btn">
+                  <div class="cart__btn">
+                    <div class="cart__counter">
+                      <div class="counter__btn btn-left">-</div>
+                      <input value="1" class="counter__value">
+                      <div class="counter__btn btn-right">+</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart__item-cash">
+                  <div class="cart__cash">
+                    <span>4800 ₽</span>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="cart__promo">
+              <div class="cart__promo-text">
+                <span class="promo__form-title">введите промокод</span>
+              </div>
+              <form action="/">
+                <div class="promo__form-fields">
+                  <input class="input-text" type="promo" placeholder="Ваш промо-код" required="">
+                  <button class="btn subcribe-form__btn" type="submit">применить</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="cart__end">
+              <span>Итого: </span>
+              <span class="total__rub">4800 ₽</span>
+            </div>
+            <div class="cart__order">
+              <a href="#">
+                <button class="btn cart__order-btn">
+                  Оформить заказ
+                </button>
+              </a>
+            </div>
+
+          </div>
+        </div>
+    </section>
+    <!----------------------------------------- подвал ----------------------------------->
+    <footer class="footer">
+      <div class="container footer__row">
+                
+        <ul class="footer__menu">
+          <li><a href="delivery-and-payment.html">Доставка и оплата</a></li>
+          <li><a href="#">Возврат и обмен</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="#">Оферта</a></li>
+        </ul>
+
+        <div class="footer__social">
+          <a href="https://vk.com" target="_blank"><img src="images/social/vk.svg" alt="vk"></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="images/social/instagram.svg" alt="instagram"></a>
+          <a href="https://www.whatsapp.com" target="_blank"><img src="images/social/whatsapp.svg" alt="whatsapp"></a>
+        </div>
+      </div>
+
+      <div class="footer__copyright">© 2017-2021 Ama Studio
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script> 
+
+</body>
+</html>

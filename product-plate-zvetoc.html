@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>amastudio-plate-zvetoc</title>
+  <!------ normalize.css - сброс к единым стилям для всех браузеров -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/hamburgers.css"> 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page">
+    <!------------------------------------ шапка сайта ----------------------------------->
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <!-- переключатель меню -->
+          <button class="hamburger hamburger--squeeze header__toggle js-menu-toggle" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <div class="header__logo">
+            <a href="index.html"><img src="images/logo.svg" alt="amastudio"></a>
+          </div> 
+          <!--------------------------------- навигация ---------------------------------->
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="catalog.html">Каталог</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#">Lookbook</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="brand.html">О бренде</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <!----------------------------- левая часть меню -------------------------------->
+          <div class="header__right">
+            <a href="#" class="header__search">
+              <img src="images/icon/search.svg" alt="Поиск">
+            </a>
+            <a href="enter.html" class="header__smile">
+              <img src="images/icon/smile.svg" alt="Личный кабинет">
+            </a>
+            <a href="#" class="header__heart">
+              <img src="images/icon/heart.svg" alt="Отложено">
+              <span class="header__cart-number">(2)</span>
+            </a>
+            <a href="cart.html" class="header__cart">
+              <img src="images/icon/cart.svg" alt="Корзина">
+              <span class="header__cart-number">(3)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!------------------------------------- карточка товара ------------------------------>
+    <div class="product-card__wrapper">
+        <div class="product-card">
+          <div class="product-card__pic">
+            <img src="images/product-cart/product-card-2.jpg" alt="">
+          </div>
+          <div class="product-card__box">
+              <div class="product-card_titel">
+                  <div class="name__text"><h2>Платье берюзовое цветок</h2></div>
+                  <div class="name__articul">№ 2021-01-359</div>
+              </div>
+              <div class="cash__text"><span>4600 ₽</span></div>
+              <!-- прописываем размерную сетку -->
+              <div class="product-card__sizes">
+                  <div class="product-card__sizes-list">
+                      <div class="choice__size-1"> 
+                          <a class="in_stock" href="#">XS</a>
+                          <a class="in_stock active" href="#">S</a>
+                          <a class="in_stock" href="#">M</a>
+                          <a class="in_stock" href="#">L</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="product-card__cart">
+                  <a href="cart.html" class="product__card-btn btn">в корзину</a>
+              </div>
+              <div class="product-">
+                  <div class="product-desc__colour">
+                      Цвет : бело-берюзовое
+                  </div>
+                  <div class="product-desc__material">
+                      <span>Материал : 80% хлопок, 20% шелк</span> 
+                  </div>
+                  <div class="product-desc__model">
+                    <span>Рост модели на фото 170 см, <br>параметры 84-60-86 см , на ней размер S</span>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+    </div>    
+
+    <!----------------------------------------- подвал ----------------------------------->
+    <footer class="footer">
+      <div class="container footer__row">
+                
+        <ul class="footer__menu">
+          <li><a href="delivery-and-payment.html">Доставка и оплата</a></li>
+          <li><a href="#">Возврат и обмен</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="#">Оферта</a></li>
+        </ul>
+
+        <div class="footer__social">
+          <a href="https://vk.com" target="_blank"><img src="images/social/vk.svg" alt="vk"></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="images/social/instagram.svg" alt="instagram"></a>
+          <a href="https://www.whatsapp.com" target="_blank"><img src="images/social/whatsapp.svg" alt="whatsapp"></a>
+        </div>
+      </div>
+
+      <div class="footer__copyright">© 2017-2021 Ama Studio
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>amastudio-catalog</title>
+  <!------ normalize.css - сброс к единым стилям для всех браузеров -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/hamburgers.css"> 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page">
+    <!------------------------------------ шапка сайта ----------------------------------->
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <!-- переключатель меню -->
+          <button class="hamburger hamburger--squeeze header__toggle js-menu-toggle" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <div class="header__logo">
+            <a href="index.html"><img src="images/logo.svg" alt="amastudio"></a>
+          </div> 
+          <!--------------------------------- навигация ---------------------------------->
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="catalog.html">Каталог</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#">Lookbook</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="brand.html">О бренде</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <!----------------------------- левая часть меню -------------------------------->
+          <div class="header__right">
+            <a href="#" class="header__search">
+              <img src="images/icon/search.svg" alt="Поиск">
+            </a>
+            <a href="enter.html" class="header__smile">
+              <img src="images/icon/smile.svg" alt="Личный кабинет">
+            </a>
+            <a href="#" class="header__heart">
+              <img src="images/icon/heart.svg" alt="Отложено">
+              <span class="header__cart-number">(2)</span>
+            </a>
+            <a href="cart.html" class="header__cart">
+              <img src="images/icon/cart.svg" alt="Корзина">
+              <span class="header__cart-number">(3)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!----------------------------------- меню каталога --------------------------->
+    <div class="container">
+      <!-- grid container-->
+      <div class="catalog__menu">
+        <!-- 1 -->
+        <a href="product-plate-beloe.html" class="catalog__item catalog__item--1">
+          <img class="catalog__img" src="images/catalog/catalog-1.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Платье белое</div>
+            <div class="catalog__price">
+              <span class="cash">4800 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 2 -->
+        <a href="product-plate-zvetoc.html" class="catalog__item catalog__item--2">
+          <img class="catalog__img" src="images/catalog/catalog-2.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Платье берюзовый цветок</div>
+            <div class="catalog__price">
+              <span class="cash">4600 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 3 -->
+        <a href="product-plate-bezevyy.html" class="catalog__item catalog__item--3">
+          <img class="catalog__img" src="images/catalog/catalog-3.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Платье бежевое</div>
+            <div class="catalog__price">
+              <span class="cash">3700 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 4 -->
+        <a href="product-plate-vecher-chornobeliy.html" class="catalog__item catalog__item--4">
+          <img class="catalog__img" src="images/catalog/catalog-4.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Платье вечернее черно-белое</div>
+            <div class="catalog__price">
+              <span class="cash">5100 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 5 -->
+        <a href="product-plate-zelenyy.html" class="catalog__item catalog__item--5">
+          <img class="catalog__img" src="images/catalog/catalog-5.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Платье зеленое</div>
+            <div class="catalog__price">
+              <span class="cash">5600 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 6 -->
+        <a href="product-kostym-chornyy.html" class="catalog__item catalog__item--6">
+          <img class="catalog__img" src="images/catalog/catalog-6.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Костюм черный</div>
+            <div class="catalog__price">
+              <span class="cash">6300 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 7 -->
+        <a href="product-kostym-zeleniykletka.html" class="catalog__item catalog__item--7">
+          <img class="catalog__img" src="images/catalog/catalog-7.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Костюм зеленый в клетку</div>
+            <div class="catalog__price">
+              <span class="cash">6900 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 8 -->
+        <a href="product-pidzhak-udlinenyy.html" class="catalog__item catalog__item--8">
+          <img class="catalog__img" src="images/catalog/catalog-8.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Пиджак удлиненный</div>
+            <div class="catalog__price">
+              <span class="cash">3500 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 9 -->
+        <a href="product-kostym-belorozovyy.html" class="catalog__item catalog__item--9">
+          <img class="catalog__img" src="images/catalog/catalog-9.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Костюм бело-розовый</div>
+            <div class="catalog__price">
+              <span class="cash">7100 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 10 -->
+        <a href="product-kurtka-udlinenyy.html" class="catalog__item catalog__item--10">
+          <img class="catalog__img" src="images/catalog/catalog-10.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Куртка удлиненная</div>
+            <div class="catalog__price">
+              <span class="cash">8300 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 11 -->
+        <a href="product-kostym-feoletovyy.html" class="catalog__item catalog__item--11">
+          <img class="catalog__img" src="images/catalog/catalog-11.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Костюм феолетовый</div>
+            <div class="catalog__price">
+              <span class="cash">6600 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 12 -->
+        <a href="product-kostym-sport.html" class="catalog__item catalog__item--12">
+          <img class="catalog__img" src="images/catalog/catalog-12.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Костюм спортивный</div>
+            <div class="catalog__price">
+              <span class="cash">5300 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 13 -->
+        <a href="product-svitshot.html" class="catalog__item catalog__item--13">
+          <img class="catalog__img" src="images/catalog/catalog-13.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Свитшот</div>
+            <div class="catalog__price">
+              <span class="cash">4100 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 14 -->
+        <a href="product-hudi-vayzanoekorotk.html" class="catalog__item catalog__item--14">
+          <img class="catalog__img" src="images/catalog/catalog-14.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Худи вязаное короткое</div>
+            <div class="catalog__price">
+              <span class="cash">5400 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 15 -->
+        <a href="product-vayzanoe-hudi.html" class="catalog__item catalog__item--15">
+          <img class="catalog__img" src="images/catalog/catalog-15.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Вязаное худи</div>
+            <div class="catalog__price">
+              <span class="cash">5600 ₽</span>
+            </div>
+          </span>
+        </a>
+        <!-- 16 -->
+        <a href="product-bryki-leto.html" class="catalog__item catalog__item--16">
+          <img class="catalog__img" src="images/catalog/catalog-16.jpg" alt="">
+          <span class="catalog__item-title">
+            <div class="catalog__title">Брюки летние</div>
+            <div class="catalog__price">
+              <span class="cash">3800 ₽</span>
+            </div>
+          </span>
+        </a>
+        
+
+      </div>
+    </div>
+    <!----------------------------------------- подвал ----------------------------------->
+    <footer class="footer">
+      <div class="container footer__row">
+                
+        <ul class="footer__menu">
+          <li><a href="delivery-and-payment.html">Доставка и оплата</a></li>
+          <li><a href="#">Возврат и обмен</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="#">Оферта</a></li>
+        </ul>
+
+        <div class="footer__social">
+          <a href="https://vk.com" target="_blank"><img src="images/social/vk.svg" alt="vk"></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="images/social/instagram.svg" alt="instagram"></a>
+          <a href="https://www.whatsapp.com" target="_blank"><img src="images/social/whatsapp.svg" alt="whatsapp"></a>
+        </div>
+      </div>
+
+      <div class="footer__copyright">© 2017-2021 Ama Studio
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script> 
+
+</body>
+</html>
